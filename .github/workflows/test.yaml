@@ -2,8 +2,6 @@ name: Publish Docker Image
 
 on:
   push:
-    tags:
-      - "v*"  # Запускать при создании тега (например, v1.0.0)
 
 env:
   REGISTRY: ghcr.io
